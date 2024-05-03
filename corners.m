@@ -1,0 +1,5 @@
+function [top_left ,top_right,bottom_left,bottom_right]= corners (x)
+top_left= x(1,1)
+top_right = x(1,end)
+bottom_left = x(end,1)
+bottom_right = x(end,end)
